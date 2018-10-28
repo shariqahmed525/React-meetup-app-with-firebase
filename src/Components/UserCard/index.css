@@ -1,0 +1,18 @@
+.root-master{
+    position: relative;
+    overflow: visible !important;
+    width: 300px;
+    height: 300px;
+}
+
+
+.append-width{
+    width: 400px !important;
+}
+
+
+@media(max-width:400px){ 
+    .append-width{
+        width: 300px !important;
+    }
+}
